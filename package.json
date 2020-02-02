@@ -1,18 +1,23 @@
 {
-  "name": "test-game",
+  "name": "phaser-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple Phaser 3 template with webpack bundling",
+  "main": "main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
     "start": "webpack-dev-server --open"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Phaser",
+    "Phaser 3",
+    "webpack",
+    "template",
+    "simple"
+  ],
+  "author": "Konstantin Meshavkin",
+  "license": "MIT",
   "dependencies": {
-    "phaser": "^3.22.0"
+    "phaser": "^3.*"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.18.0",
