@@ -1,7 +1,11 @@
 {
   "name": "phaser-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Phaser 3 template with webpack bundling",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmeshavkin/phaser-template.git"
+  },
   "main": "main.ts",
   "scripts": {
     "build": "webpack --mode=production",
