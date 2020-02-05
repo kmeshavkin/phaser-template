@@ -20,5 +20,5 @@ I decided to create my own template project for Phaser 3, because most of them e
 * Develop app: `npm start`
 * Build app: `npm build`
 
-**NOTE:** By default during build webpack searches main.ts file, but if you want to use it with javascript, just replace `entry: './src/main.ts',` with `entry: './src/main.js',`
+**NOTE:** By default during build webpack searches main.ts file, but if you want to use it with javascript, just replace `entry: './src/main.ts'` with `entry: './src/main.js'` in the `webpack.config.js` file.
 
