@@ -14,23 +14,23 @@ module.exports = {
       {
         test: /\.tsx?$/,
         use: 'ts-loader',
-        include: path.join(__dirname, 'src')
+        include: path.join(__dirname, 'src'),
       },
     ],
   },
   resolve: {
-    extensions: [".js", ".ts", ".tsx"]
+    extensions: ['.js', '.ts'],
   },
   optimization: {
-    minimizer: [new TerserJSPlugin()]
+    minimizer: [new TerserJSPlugin()],
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 8080
+    port: 8080,
   },
   plugins: [
     new HtmlWebpackPlugin({ template: 'src/index.html' }),
     new CleanWebpackPlugin(),
-  ]
+  ],
 };
